@@ -1,2 +1,8 @@
 pandas
 numpy
+plotly
+folium
+branca
+streamlit_folium
+matplotlib
+seaborn
