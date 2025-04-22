@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Загрузка данных
-df = pd.read_csv("vacancies.csv")
+df = pd.read_csv("main_cleaned_vacancies.csv")
 
 # Расчет средней зарплаты по образованию и опыту работы
 salary_by_education_experience = df.groupby(['Образование', 'Опыт работы', 'Категория']).apply(
